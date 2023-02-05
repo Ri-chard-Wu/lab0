@@ -1,5 +1,5 @@
 /* Implementation of testing code for queue code */
-
+int a = 3;
 #include <assert.h>
 #include <errno.h>
 #include <getopt.h>
