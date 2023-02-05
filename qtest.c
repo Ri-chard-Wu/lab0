@@ -74,6 +74,8 @@ static const char charset[] = "abcdefghijklmnopqrstuvwxyz";
 /* Forward declarations */
 static bool show_queue(int vlevel);
 
+int a = 3;
+
 static bool do_free(int argc, char *argv[])
 {
     if (argc != 1) {
