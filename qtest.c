@@ -1,5 +1,4 @@
 /* Implementation of testing code for queue code */
-int a = 3;
 #include <assert.h>
 #include <errno.h>
 #include <getopt.h>
@@ -81,6 +80,8 @@ static bool do_free(int argc, char *argv[])
         report(1, "%s takes no arguments", argv[0]);
         return false;
     }
+
+
 
     bool ok = true;
     if (!l_meta.l)
